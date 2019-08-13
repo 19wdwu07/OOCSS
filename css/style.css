@@ -1,0 +1,86 @@
+/* CSS Reset */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: cornsilk;
+  color:saddlebrown;
+}
+
+/* Container */
+.mainContainer{
+  width:80%;
+  margin:auto;
+}
+
+/* Container */
+.header{
+  width:100%;
+  margin-bottom: 50px;
+}
+/* Content */
+/* structure */
+.heading{
+  margin-top: 50px;
+}
+/* skin */
+.cooking{
+  font-family: "Timesnew Roman";
+
+}
+
+/* Container */
+.sectionContainer{
+  margin-bottom: 100px;
+}
+
+/* Content */
+/* structure */
+.hobbyPara{
+  width: 40%;
+  float:left;
+  padding-right: 20px;
+}
+/* skin */
+.hobbyIntro{
+  color: turquoise;
+  line-height: 30px;
+  font-size: 18px;
+  font-family: arial;
+}
+
+/* Content */
+.imgCooking{
+  width:55%;
+  float:left;
+  margin-bottom: 30px;
+
+}
+
+/* structure */
+.hobbyMore{
+  width: 40%;
+  float:left;
+  padding-left: 30px;
+}
+.clearFix{
+  content:"";
+  clear:both;
+  display:table;
+}
+/* structure */
+.recipeSize{
+  width:150px;
+  height:70px;
+
+}
+/* skin */
+.recipeSandwich{
+  font-size: 22px;
+  text-decoration: none;
+  background: turquoise;
+  text-align: center
+}
